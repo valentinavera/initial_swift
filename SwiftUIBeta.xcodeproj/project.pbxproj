@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1736B22C27769300112A76 /* TabPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1736B12C27769300112A76 /* TabPageView.swift */; };
+		4B1736B42C27805700112A76 /* NavigationView_NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1736B32C27805700112A76 /* NavigationView_NavigationLink.swift */; };
+		4B1736B62C27818600112A76 /* FullScreenCover_Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1736B52C27818600112A76 /* FullScreenCover_Sheet.swift */; };
+		4B1736B82C27DB0700112A76 /* DragOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1736B72C27DB0700112A76 /* DragOffsetView.swift */; };
 		4B7492D02C0BBF1000EC27CF /* SwiftUIBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492CF2C0BBF1000EC27CF /* SwiftUIBetaApp.swift */; };
 		4B7492D22C0BBF1000EC27CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492D12C0BBF1000EC27CF /* ContentView.swift */; };
 		4B7492D42C0BBF1100EC27CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7492D32C0BBF1100EC27CF /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		4B7492E12C0BBF1100EC27CF /* SwiftUIBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492E02C0BBF1100EC27CF /* SwiftUIBetaTests.swift */; };
 		4B7492EB2C0BBF1100EC27CF /* SwiftUIBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492EA2C0BBF1100EC27CF /* SwiftUIBetaUITests.swift */; };
 		4B7492ED2C0BBF1100EC27CF /* SwiftUIBetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492EC2C0BBF1100EC27CF /* SwiftUIBetaUITestsLaunchTests.swift */; };
+		4B7492FA2C0C289600EC27CF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492F92C0C289600EC27CF /* Login.swift */; };
+		4B7492FE2C0C453600EC27CF /* DataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7492FD2C0C453600EC27CF /* DataList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1736B12C27769300112A76 /* TabPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageView.swift; sourceTree = "<group>"; };
+		4B1736B32C27805700112A76 /* NavigationView_NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView_NavigationLink.swift; sourceTree = "<group>"; };
+		4B1736B52C27818600112A76 /* FullScreenCover_Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_Sheet.swift; sourceTree = "<group>"; };
+		4B1736B72C27DB0700112A76 /* DragOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragOffsetView.swift; sourceTree = "<group>"; };
 		4B7492CC2C0BBF1000EC27CF /* SwiftUIBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7492CF2C0BBF1000EC27CF /* SwiftUIBetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaApp.swift; sourceTree = "<group>"; };
 		4B7492D12C0BBF1000EC27CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		4B7492E62C0BBF1100EC27CF /* SwiftUIBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7492EA2C0BBF1100EC27CF /* SwiftUIBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaUITests.swift; sourceTree = "<group>"; };
 		4B7492EC2C0BBF1100EC27CF /* SwiftUIBetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B7492F92C0C289600EC27CF /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		4B7492FD2C0C453600EC27CF /* DataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataList.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +107,15 @@
 			isa = PBXGroup;
 			children = (
 				4B7492CF2C0BBF1000EC27CF /* SwiftUIBetaApp.swift */,
+				4B7492FD2C0C453600EC27CF /* DataList.swift */,
+				4B7492F92C0C289600EC27CF /* Login.swift */,
 				4B7492D12C0BBF1000EC27CF /* ContentView.swift */,
+				4B1736B12C27769300112A76 /* TabPageView.swift */,
+				4B1736B32C27805700112A76 /* NavigationView_NavigationLink.swift */,
+				4B1736B52C27818600112A76 /* FullScreenCover_Sheet.swift */,
 				4B7492D32C0BBF1100EC27CF /* Assets.xcassets */,
 				4B7492D52C0BBF1100EC27CF /* Preview Content */,
+				4B1736B72C27DB0700112A76 /* DragOffsetView.swift */,
 			);
 			path = SwiftUIBeta;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1736B62C27818600112A76 /* FullScreenCover_Sheet.swift in Sources */,
+				4B1736B22C27769300112A76 /* TabPageView.swift in Sources */,
+				4B7492FA2C0C289600EC27CF /* Login.swift in Sources */,
+				4B1736B42C27805700112A76 /* NavigationView_NavigationLink.swift in Sources */,
 				4B7492D22C0BBF1000EC27CF /* ContentView.swift in Sources */,
 				4B7492D02C0BBF1000EC27CF /* SwiftUIBetaApp.swift in Sources */,
+				4B7492FE2C0C453600EC27CF /* DataList.swift in Sources */,
+				4B1736B82C27DB0700112A76 /* DragOffsetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
